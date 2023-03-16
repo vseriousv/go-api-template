@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"backend/internal/api/services"
 	"encoding/json"
+	"github.com/vseriousv/go-api-template/internal/api/services"
 	"net/http"
 )
 

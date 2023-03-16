@@ -1,10 +1,10 @@
 package services
 
 import (
-	"backend/internal/api/dto"
-	"backend/internal/api/repositories"
 	"context"
 	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/vseriousv/go-api-template/internal/api/dto"
+	"github.com/vseriousv/go-api-template/internal/api/repositories"
 )
 
 type DepositService struct {

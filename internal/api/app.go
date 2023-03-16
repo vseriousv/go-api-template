@@ -1,13 +1,13 @@
 package api
 
 import (
-	"backend/internal/api/handlers"
-	"backend/internal/api/services"
-	"backend/internal/config"
-	"backend/pkg/utils"
 	"context"
 	"github.com/go-chi/chi"
 	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/vseriousv/go-api-template/internal/api/handlers"
+	"github.com/vseriousv/go-api-template/internal/api/services"
+	"github.com/vseriousv/go-api-template/internal/config"
+	"github.com/vseriousv/go-api-template/pkg/utils"
 )
 
 type AppStruct struct {

@@ -1,6 +1,6 @@
 package dto
 
-import "backend/internal/api/repositories"
+import "github.com/vseriousv/go-api-template/internal/api/repositories"
 
 type DepositDTO struct {
 	PoolId      string      `json:"poolId"`
