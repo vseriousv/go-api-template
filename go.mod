@@ -1,4 +1,4 @@
-module backend
+module github.com/vseriousv/go-api-template
 
 go 1.20
 
